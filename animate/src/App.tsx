@@ -1,5 +1,6 @@
 import AnimatedCard from './components/AnimatedCard';
 import AnimatedGallery from './components/AnimatedGallery';
+import AnimatedGalleryStaggered from './components/AnimatedGalleryStaggered';
 import BouncingLoader from './components/BouncingLoader';
 import FlippingCard from './components/FlippingCard';
 import PulsingBtn from './components/PulsingBtn';
@@ -11,7 +12,8 @@ function App() {
       {/* <BouncingLoader /> */}
       {/* <FlippingCard /> */}
       {/* <AnimatedCard /> */}
-      <AnimatedGallery />
+      {/* <AnimatedGallery /> */}
+      <AnimatedGalleryStaggered />
     </div>
   );
 }
