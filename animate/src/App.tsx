@@ -4,6 +4,7 @@ import AnimatedGalleryStaggered from './components/AnimatedGalleryStaggered';
 import BouncingLoader from './components/BouncingLoader';
 import FlippingCard from './components/FlippingCard';
 import PulsingBtn from './components/PulsingBtn';
+import RangeSlider from './components/RangeSlider';
 
 function App() {
   return (
@@ -13,7 +14,8 @@ function App() {
       {/* <FlippingCard /> */}
       {/* <AnimatedCard /> */}
       {/* <AnimatedGallery /> */}
-      <AnimatedGalleryStaggered />
+      {/* <AnimatedGalleryStaggered /> */}
+      <RangeSlider />
     </div>
   );
 }
