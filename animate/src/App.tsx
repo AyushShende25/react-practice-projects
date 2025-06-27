@@ -2,6 +2,7 @@ import AnimatedCard from './components/AnimatedCard';
 import AnimatedGallery from './components/AnimatedGallery';
 import AnimatedGalleryStaggered from './components/AnimatedGalleryStaggered';
 import BouncingLoader from './components/BouncingLoader';
+import DraggableBox from './components/DraggableBox';
 import FlippingCard from './components/FlippingCard';
 import PulsingBtn from './components/PulsingBtn';
 import RangeSlider from './components/RangeSlider';
@@ -15,7 +16,8 @@ function App() {
       {/* <AnimatedCard /> */}
       {/* <AnimatedGallery /> */}
       {/* <AnimatedGalleryStaggered /> */}
-      <RangeSlider />
+      {/* <RangeSlider /> */}
+      <DraggableBox />
     </div>
   );
 }
