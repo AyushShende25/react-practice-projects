@@ -1,4 +1,5 @@
 import AnimatedCard from './components/AnimatedCard';
+import AnimatedContainer from './components/AnimatedCardV2';
 import AnimatedGallery from './components/AnimatedGallery';
 import AnimatedGalleryStaggered from './components/AnimatedGalleryStaggered';
 import BouncingLoader from './components/BouncingLoader';
@@ -9,7 +10,7 @@ import RangeSlider from './components/RangeSlider';
 
 function App() {
   return (
-    <div className="flex items-center justify-center h-screen">
+    <div className="">
       {/* <PulsingBtn /> */}
       {/* <BouncingLoader /> */}
       {/* <FlippingCard /> */}
@@ -17,7 +18,8 @@ function App() {
       {/* <AnimatedGallery /> */}
       {/* <AnimatedGalleryStaggered /> */}
       {/* <RangeSlider /> */}
-      <DraggableBox />
+      {/* <DraggableBox /> */}
+      <AnimatedContainer />
     </div>
   );
 }
